@@ -1,5 +1,6 @@
 body {
     margin: 8px 64px;
+    font-family: sans-serif;
 }
 
 @media screen and (max-width: 768px) {
