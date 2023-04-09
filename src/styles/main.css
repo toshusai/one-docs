@@ -1,0 +1,137 @@
+body {
+    margin: 8px 64px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 8px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        margin: 8px 256px;
+    }
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Roboto Mono", monospace;
+}
+
+p {
+    margin: 8px 0;
+}
+
+pre {
+    margin: 0;
+}
+
+.code {
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+.details-child {
+    padding-left: 24px;
+}
+
+.preview-box {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 8px 0;
+    padding: 8px;
+    padding-top: 16px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.center {
+    text-align: center;
+}
+
+.link {
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    display: inline-flex;
+    text-decoration: none;
+    gap: 8px;
+    border-radius: 999px;
+    border: 1px solid black;
+    padding: 4px;
+    padding-left: 16px;
+
+    transition: background-color 0.2s;
+}
+
+.link:visited {
+    color: inherit;
+}
+
+.link:hover {
+    background-color: #eee;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+.eop-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: 16px;
+}
+
+.eop {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.scroll-top-button {
+    padding: 4px 8px;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.scroll-top-button:hover {
+    background-color: #eee;
+}
+
+.demo {
+    position: absolute;
+    font-size: 10px;
+    background: black;
+    color: white;
+    left: -1px;
+    top: -1px;
+    padding: 0 4px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.inline-code {
+    font-family: "Roboto Mono", monospace;
+    background: #eee;
+    padding: 0 4px;
+    border-radius: 4px;
+}
+
+.note-card {
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: rgb(241, 244, 255);
+    margin: 8px 0;
+}
+.note-card::before {
+    content: "💡";
+    margin-right: 8px;
+}
